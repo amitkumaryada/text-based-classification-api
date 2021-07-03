@@ -1,0 +1,15 @@
+#========================================
+# PROJECT NAME : TEXT BASED CLASSIFIER
+#========================================
+
+#Serving config
+APP_NAME: "Text-based-classifier"
+DEBUG : Flase
+HOST:0.0.0.0
+PORT:60013
+DEFAULT_API_VERSION:1
+
+#Directiry
+file_path : "./assets/input.txt"
+model : "./assets/model/classifier.pkl"
+tfidf ; "./assets/model/tfidfvectorizer.pkl"
